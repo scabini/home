@@ -41,3 +41,59 @@
       padding-top: 20px; /* Adds some space above the image */
     }
   }
+
+  .button-menu {
+    text-align: center; /* Center the buttons */
+    margin: 20px 0; /* Add some margin around the menu */
+  }
+
+/* Blog posts style */
+  
+.blog-posts {
+  margin: 10px 0;
+}
+
+.post-preview {
+  margin-bottom: 40px;
+}
+
+.post-preview h2 {
+  margin-bottom: 5px;
+}
+
+.post-preview {
+  background-color: #1a1a1a; /* Darker background for each post */
+  border: 1px solid #2e2e2e; /* Slightly lighter border for some depth */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for a 3D effect */
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px; /* Rounded corners */
+  display: flex;
+  align-items: left;
+  flex-direction: column; /* Items stacked vertically */
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.post-preview:hover {
+  transform: scale(1.02); /* Slightly enlarges post preview on hover */
+}
+
+.post-thumbnail {
+  max-width: 80%; /* Responsive width, consider adjusting based on your layout */
+  height: auto;
+  margin-bottom: 20px; /* Space between image and text */
+  border-radius: 5px;
+}
+
+.post-preview h2, .post-preview p {
+  color: #c7d5c8; /* Green/gray text to match the site theme */
+}
+
+.post-preview h2 a, .post-preview p a {
+  color: #89c997; /* Lighter green for links for contrast & visibility */
+}
+
+.post-preview .date {
+  font-size: 0.9em;
+  color: #757575; /* Gray for less emphasis on date */
+}
