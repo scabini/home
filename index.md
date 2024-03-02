@@ -14,7 +14,7 @@ Hello! This is my personal webpage. Here I'll share research resources, datasets
 <embed src="https://scrollprize.org/grandprize#runners-up" style="width:600px; height: 600px;">
 -->
 
-# News and posts
+# News, posts, etc
 
 <div class="blog-posts">
 {% for post in site.posts %}
